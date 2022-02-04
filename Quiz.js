@@ -161,8 +161,65 @@ const questions = [
     answer5[3].innerText = questions[4].incorrect_answers[2]
 
 
+
+
+    let question6 = document.getElementById('question6')
+    question6.innerText = questions[5].question
+
+    let answer6 = document.getElementsByClassName('answer6')
+    
+    answer6[0].innerText = questions[5].incorrect_answers[0]
+    answer6[2].innerText = questions[5].incorrect_answers[1]
+    answer6[1].innerText = questions[5].correct_answer[0]
+    answer6[3].innerText = questions[5].incorrect_answers[2]
+
+
+
+    let question7 = document.getElementById('question7')
+    question7.innerText = questions[6].question
+
+    let answer7 = document.getElementsByClassName('answer7')
+    
+    answer7[1].innerText = questions[6].correct_answer[0]
+    answer7[0].innerText = questions[6].incorrect_answers[0]
+    answer7[2].innerText = questions[6].incorrect_answers[1]
+    answer7[3].innerText = questions[6].incorrect_answers[2]
+
+
+
+
+    let question8 = document.getElementById('question8')
+    question8.innerText = questions[7].question
+
+    let answer8 = document.getElementsByClassName('answer8')
+    
+    answer8[1].innerText = questions[7].correct_answer[0]
+    answer8[0].innerText = questions[7].incorrect_answers[0]
     
 
+
+
+    let question9 = document.getElementById('question9')
+    question9.innerText = questions[8].question
+
+    let answer9 = document.getElementsByClassName('answer9')
+    
+    answer9[0].innerText = questions[8].incorrect_answers[0]
+    answer9[1].innerText = questions[8].correct_answer[0]
+    
+
+
+
+    let question10 = document.getElementById('question10')
+    question10.innerText = questions[9].question
+
+    let answer10 = document.getElementsByClassName('answer10')
+    
+    
+    answer10[0].innerText = questions[9].incorrect_answers[0]
+    answer10[2].innerText = questions[9].incorrect_answers[1]
+    answer10[3].innerText = questions[9].incorrect_answers[2]
+    answer10[1].innerText = questions[9].correct_answer[0]
     
 
 
