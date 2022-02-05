@@ -23,7 +23,7 @@ const questions = [
       difficulty: "easy",
       question:
         "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn&#039;t get modified?",
-      correct_answer: "Final",
+      correct_answer: ["Final"],
       incorrect_answers: ["Static", "Private", "Public"],
     },
     {
@@ -123,6 +123,7 @@ const questions = [
     answer2[0].innerText = questions[1].incorrect_answers[0]
     answer2[1].innerText = questions[1].incorrect_answers[1]
     answer2[2].innerText = questions[1].incorrect_answers[2]
+    answer2[3].innerText = questions[1].correct_answer[0]
 
 
 
@@ -193,8 +194,10 @@ const questions = [
 
     let answer8 = document.getElementsByClassName('answer8')
     
-    answer8[1].innerText = questions[7].correct_answer[0]
-    answer8[0].innerText = questions[7].incorrect_answers[0]
+    answer8[0].innerText = questions[7].correct_answer[0]
+    answer8[1].innerText = questions[7].incorrect_answers[0]
+    answer8[2].innerText = questions[7].incorrect_answers[1]
+    answer8[3].innerText = questions[7].incorrect_answers[2]
     
 
 
@@ -223,6 +226,5 @@ const questions = [
     
 
 
-    
-    
-    
+    let results = [] 
+
