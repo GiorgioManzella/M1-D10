@@ -90,12 +90,29 @@ let print1 = function print1(){
 let addRow = function (){
     let newTH = document.createElement('th')
     let parent = document.getElementsByTagName('tr')
-    parent.appendChild(newTH)
+    for (let I = 0; I < parent.length; I++) {
+        
+        
+    }
+        
+    }
     
-}
+
 
 
 let nexClass = function(){
     let x  = document.getElementsByClassName('tr')
     
 }
+
+
+let addBackColor = function (){
+    let x = document.getElementsByTagName('a')
+    for (i=0; i<x.length; i++){
+    x[i].classList.add('backColor')
+}}
+
+
+window.onload = console.log('loaded')
+
+
